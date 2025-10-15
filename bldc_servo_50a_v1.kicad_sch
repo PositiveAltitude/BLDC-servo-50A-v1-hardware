@@ -6685,6 +6685,18 @@
 		)
 		(uuid "144ccf3b-103e-4746-a7d0-628da34cafc0")
 	)
+	(text "FAN JST"
+		(exclude_from_sim no)
+		(at 262.128 131.826 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.375)
+				(italic yes)
+			)
+		)
+		(uuid "1f5b3413-c46e-427e-9adf-e1b55fc4f3e0")
+	)
 	(text "MCU Decoupling caps\n"
 		(exclude_from_sim no)
 		(at 213.614 100.33 0)
@@ -8119,7 +8131,7 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 12.7) (xy 99.06 160.02)
+			(xy 98.523 12.0658) (xy 98.523 160.02)
 		)
 		(stroke
 			(width 0.3)
@@ -8479,7 +8491,7 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 160.02) (xy 172.72 160.02)
+			(xy 98.523 160.02) (xy 172.72 160.02)
 		)
 		(stroke
 			(width 0.3)
@@ -8659,7 +8671,7 @@
 	)
 	(polyline
 		(pts
-			(xy 275.59 12.7) (xy 275.59 72.39)
+			(xy 275.5966 12.0572) (xy 275.59 72.39)
 		)
 		(stroke
 			(width 0.3)
@@ -9189,7 +9201,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 12.7) (xy 203.2 72.39)
+			(xy 203.2139 12.1194) (xy 203.2 72.39)
 		)
 		(stroke
 			(width 0.3)
@@ -9256,6 +9268,16 @@
 			(type dash)
 		)
 		(uuid "6d575a33-b8f1-4727-81b0-dfc120cd8f2a")
+	)
+	(wire
+		(pts
+			(xy 269.24 119.38) (xy 262.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc7f8c2-95b2-49ce-85b4-e0980db81a00")
 	)
 	(wire
 		(pts
@@ -10059,7 +10081,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 160.02) (xy 99.06 160.02)
+			(xy 12.1278 160.02) (xy 98.523 160.02)
 		)
 		(stroke
 			(width 0.3)
@@ -10209,7 +10231,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 63.5) (xy 322.58 63.5)
+			(xy 314.96 63.5) (xy 322.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10359,6 +10381,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 114.3) (xy 269.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf58a81-c14c-4042-9717-731c825b6695")
+	)
+	(wire
+		(pts
 			(xy 213.36 215.9) (xy 213.36 218.44)
 		)
 		(stroke
@@ -10366,6 +10398,16 @@
 			(type default)
 		)
 		(uuid "ac6176cd-3375-4877-a361-8c6eec04eea0")
+	)
+	(polyline
+		(pts
+			(xy 275.59 107.95) (xy 275.59 135.89)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "ad993d04-23e7-4ab5-9259-533e5c52171f")
 	)
 	(wire
 		(pts
@@ -10909,7 +10951,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 11.43) (xy 250.19 72.39)
+			(xy 250.1945 12.1485) (xy 250.19 72.39)
 		)
 		(stroke
 			(width 0.3)
@@ -11677,6 +11719,16 @@
 		)
 		(uuid "fa8d275a-a042-480e-9298-bf0653dd7da7")
 	)
+	(polyline
+		(pts
+			(xy 275.59 135.89) (xy 250.19 135.89)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "fb900fc2-aee1-4143-8bf3-e06bc070d69a")
+	)
 	(wire
 		(pts
 			(xy 245.11 36.83) (xy 237.49 36.83)
@@ -12177,6 +12229,16 @@
 		)
 		(uuid "46ccb435-f651-4f48-b781-e8de2be8339a")
 	)
+	(label "FAN"
+		(at 262.89 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b1b3265-478c-4a25-a240-86a4d2e6575e")
+	)
 	(label "NRST"
 		(at 314.96 33.02 0)
 		(effects
@@ -12548,7 +12610,7 @@
 		(uuid "a0309c36-d19c-4ad9-ad52-66ab243277ae")
 	)
 	(label "FAN"
-		(at 287.02 63.5 0)
+		(at 314.96 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12586,6 +12648,16 @@
 			(justify left bottom)
 		)
 		(uuid "a629326e-059f-4bfc-9a62-3f6a146c56f2")
+	)
+	(label "GND"
+		(at 262.89 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6742c71-097f-461e-bcc4-23046fcc664f")
 	)
 	(label "SH_A"
 		(at 92.71 69.85 180)
@@ -15804,6 +15876,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 257.81 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3abb370d-7e0b-4523-a49c-78e451fd8c39")
+		(property "Reference" "J?"
+			(at 258.826 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fan_JST"
+			(at 258.572 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a455a5fb-c3c2-441c-a8db-2fc447f82a61")
+		)
+		(pin "2"
+			(uuid "bca422f9-13d7-4240-8f68-955ed39549b8")
+		)
+		(pin "3"
+			(uuid "6869511f-e796-4c4e-9d96-72c3fc419b80")
+		)
+		(instances
+			(project ""
+				(path "/ca0f1187-2401-4955-9ff2-f596d64fa8e9"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 205.74 29.21 0)
 		(unit 1)
@@ -17102,6 +17244,71 @@
 			(project "bldc_servo_50a_v1"
 				(path "/ca0f1187-2401-4955-9ff2-f596d64fa8e9"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 269.24 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b17a5dc-2f9c-4091-a525-68accd7abc1b")
+		(property "Reference" "#PWR017"
+			(at 269.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 269.24 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3949a870-3d26-4407-a9fa-eda3b4dc6fac")
+		)
+		(instances
+			(project "bldc_servo_50a_v1"
+				(path "/ca0f1187-2401-4955-9ff2-f596d64fa8e9"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
