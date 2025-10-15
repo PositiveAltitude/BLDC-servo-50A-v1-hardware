@@ -20,18 +20,18 @@
 - [ ] Current limiting switch (5V) for a fan
 - [ ] Addressable LED (ws2812?)
 ## 🛠 STM32 CubeMX project
-- [ ] SWD
-- [ ] 2 magnetic encoders (SPI)
-- [ ] Driver's phases (timers)
-- [ ] Driver's current sensing
+- [x] SWD
+- [x] 2 magnetic encoders (SPI)
+- [x] Driver's phases (timers)
+- [x] Driver's current sensing
+- [x] Driver's voltage sensing
 - [ ] Driver's signals
 - [ ] Driver's SPI
-- [ ] CAN
-- [ ] DSHOT
-- [ ] Voltage sense
-- [ ] Temperature sense (NTC)
-- [ ] Fan PWM control
-- [ ] Addressable LED control (SPI-MOSI could be used)
+- [x] CAN
+- [x] Voltage sense
+- [x] Temperature sense (NTC)
+- [x] Fan PWM control
+- [x] Addressable LED control (SPI-MOSI could be used)
 ## 🛠 Electrical scheme
 ## 🤔 Assign all components and footprints
 - [ ] Footprints
