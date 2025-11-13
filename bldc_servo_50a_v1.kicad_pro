@@ -646,6 +646,18 @@
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "partno",
+          "name": "partno",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC ",
+          "name": "LCSC ",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -653,7 +665,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part Name"
     },
     "connection_grid_size": 50.0,
     "drawing": {
