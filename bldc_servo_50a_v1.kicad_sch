@@ -22874,7 +22874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mosfet_PWR:BSC010N04LS"
+		(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
 			(at 49.53 279.07 0)
 			(effects
 				(font
