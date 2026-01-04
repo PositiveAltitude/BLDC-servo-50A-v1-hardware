@@ -10,15 +10,16 @@
 - [x] Driver (DRV8305NQPHPRQ1)
 - [x] MOSFETs (BSC010N04LS)
 - [x] Can Driver (SN65HVD230DR)
-- [x] 5V Buck (LMR33630)
-- [ ] 3.3V LDO
+- [x] 5V Buck (LMR51430YFDDCR)
+- [x] 3.3V LDO (TLV75533PDBVR)
 - [ ] Polymer caps
-- [ ] Shunt resistor
+- [x] Shunt resistor (ASR-M-3-1F)
 - [ ] TVS Diode
 - [ ] Can bus connectors (JST PH?)
 - [x] Magnetic encoder FPC connector (HC-FPC-05-09-8RLTAG)
 - [ ] Current limiting switch (5V) for a fan
 - [ ] Addressable LED (ws2812?)
+- [ ] Magnetic encoder
 ## 🛠 STM32 CubeMX project
 - [x] SWD
 - [x] 2 magnetic encoders (SPI)
