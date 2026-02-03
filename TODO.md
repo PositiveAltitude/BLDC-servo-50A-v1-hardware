@@ -5,21 +5,22 @@
 - [x] Plan heat dissipation
 - [x] Verify driver's capabilities
 
-## 🛠 Parts selection
+## ✅ Parts selection
 - [x] MCU (STM32G431CBT6)
 - [x] Driver (DRV8305NQPHPRQ1)
 - [x] MOSFETs (BSC010N04LS)
 - [x] Can Driver (SN65HVD230DR)
 - [x] 5V Buck (LMR51430YFDDCR)
 - [x] 3.3V LDO (TLV75533PDBVR)
-- [ ] Polymer caps
+- [x] Polymer caps (EEHZC1H101P)
 - [x] Shunt resistor (ASR-M-3-1F)
-- [ ] TVS Diode
-- [ ] Can bus connectors (JST PH?)
+- [x] TVS Diode (SMBJ28A)
+- [x] Can bus connectors (S3B-PH-SM4-TB(LF)(SN))
 - [x] Magnetic encoder FPC connector (HC-FPC-05-09-8RLTAG)
-- [ ] Current limiting switch (5V) for a fan
-- [ ] Addressable LED (ws2812?)
-- [ ] Magnetic encoder
+- [x] Current limiting switch (5V) for a fan (TPS22919DCKR)
+- [x] Addressable LED (WS2812B-2020)
+- [x] Magnetic encoder (Magn Tek MT6701QT-STD)
+- [x] NTC (NCP15XH103F03RC)
 ## 🛠 STM32 CubeMX project
 - [x] SWD
 - [x] 2 magnetic encoders (SPI)
@@ -34,9 +35,66 @@
 - [x] Fan PWM control
 - [x] Addressable LED control (SPI-MOSI could be used)
 ## 🛠 Electrical scheme
-## 🤔 Assign all components and footprints
+- [ ] MCU
+- [ ] Driver
+- [ ] MOSFETs
+- [ ] Bulk capacitors
+- [ ] TVS Diode
+- [ ] CAN Driver
+  - [ ] CAN protection?
+- [ ] 5V Buck
+- [ ] 3.3V LDO
+- [ ] Fan switch
+- [ ] LED
+- [ ] Connectors
+  - [ ] Phase soldering pads
+  - [ ] Battery pads
+  - [ ] Can connectors
+  - [ ] Fan connector
+  - [ ] SWD
+  - [ ] Encoder connectors
+- [ ] Mounting holes
+- [ ] Voltage sensing
+- [ ] Current sensing
+## 🛠 Assign all components and footprints
 - [ ] Footprints
+  - [ ] Resistors
+  - [ ] Capacitors
+  - [ ] Connectors
+  - [ ] Chips
+  - [ ] Soldering pads
+  - [ ] Net ties
+  - [ ] Inductors, ferrite beads, etc
 - [ ] LCSC codes
-## 🤔 PCB outline and components arrangement
+## 🛠 PCB outline and components arrangement
+- [ ] MOSFETs
+- [ ] Connectors
+- [ ] Other chips
 ## 🤔 PCB tracing
 ## 🤔 Verification and preparing for fabrication
+- [ ] Double check
+  - [ ] MCU signals
+  - [ ] MCU power
+  - [ ] Connectors pinouts
+  - [ ] Driver components
+  - [ ] 5V buck components
+  - [ ] Power stage connections
+  - [ ] Power stage routing
+  - [ ] Power stage cooling
+  - [ ] NTC placement
+  - [ ] High current rotes
+  - [ ] Power loops
+  - [ ] Gate loops
+  - [ ] GND cutouts
+  - [ ] Board outline
+  - [ ] All parts voltage ratings
+  - [ ] Check BOM
+- [ ] Optimize BOM if possible
+- [ ] Check components availability
+- [ ] Silk screen
+- [ ] Fabrication output generation script
+  - [ ] Panelization
+    - [ ] Holes and fiducials
+  - [ ] BOM
+  - [ ] Gerber
+  - [ ] Placement
