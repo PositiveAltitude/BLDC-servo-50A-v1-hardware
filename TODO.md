@@ -9,12 +9,12 @@
 - [x] MCU (STM32G431CBT6)
 - [x] Driver (DRV8305NQPHPRQ1)
 - [x] MOSFETs (BSC010N04LS)
-- [x] Can Driver (SN65HVD230DR)
+- [x] Can Transceiver (SN65HVD230DR)
 - [x] 5V Buck (LMR51430YFDDCR)
 - [x] 3.3V LDO (TLV75533PDBVR)
 - [x] Polymer caps (EEHZC1H101P)
 - [x] Shunt resistor (ASR-M-3-1F)
-- [x] TVS Diode (SMBJ28A)
+- [x] TVS Diode (SMBJe28A)
 - [x] Can bus connectors (S3B-PH-SM4-TB(LF)(SN))
 - [x] Magnetic encoder FPC connector (HC-FPC-05-09-8RLTAG)
 - [x] Current limiting switch (5V) for a fan (TPS22919DCKR)
@@ -40,7 +40,7 @@
 - [ ] MOSFETs
 - [ ] Bulk capacitors
 - [ ] TVS Diode
-- [ ] CAN Driver
+- [ ] CAN Transceiver
   - [ ] CAN protection?
 - [ ] 5V Buck
 - [ ] 3.3V LDO
@@ -61,7 +61,17 @@
   - [ ] Resistors
   - [ ] Capacitors
   - [ ] Connectors
-  - [ ] Chips
+  - [x] Chips
+    - [x] MCU
+    - [x] Driver
+    - [x] LDO
+    - [x] 5V Buck
+    - [x] LED
+    - [x] TVS Diode
+    - [x] Bulk Caps
+    - [x] Fan Switch
+    - [x] CAN Transceiver
+    - [x] NTC
   - [ ] Soldering pads
   - [ ] Net ties
   - [ ] Inductors, ferrite beads, etc
@@ -89,6 +99,7 @@
   - [ ] Board outline
   - [ ] All parts voltage ratings
   - [ ] Check BOM
+  - [ ] Fan pinout
 - [ ] Optimize BOM if possible
 - [ ] Check components availability
 - [ ] Silk screen
