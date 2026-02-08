@@ -57,10 +57,10 @@
 - [ ] Voltage sensing
 - [ ] Current sensing
 ## 🛠 Assign all components and footprints
-- [ ] Footprints
-  - [ ] Resistors
-  - [ ] Capacitors
-  - [ ] Connectors
+- [x] Footprints
+  - [x] Resistors
+  - [x] Capacitors
+  - [x] Connectors
   - [x] Chips
     - [x] MCU
     - [x] Driver
@@ -72,9 +72,9 @@
     - [x] Fan Switch
     - [x] CAN Transceiver
     - [x] NTC
-  - [ ] Soldering pads
-  - [ ] Net ties
-  - [ ] Inductors, ferrite beads, etc
+  - [x] Soldering pads
+  - [x] Net ties
+  - [x] Inductors, ferrite beads, etc
 - [ ] LCSC codes
 ## 🛠 PCB outline and components arrangement
 - [ ] MOSFETs
@@ -87,6 +87,7 @@
   - [ ] MCU power
   - [ ] Connectors pinouts
   - [ ] Driver components
+    - [ ] Check charge pump caps with reference design (should it be 47n real or derated?)
   - [ ] 5V buck components
   - [ ] Power stage connections
   - [ ] Power stage routing
