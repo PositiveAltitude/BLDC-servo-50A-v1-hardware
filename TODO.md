@@ -35,12 +35,12 @@
 - [x] Fan PWM control
 - [x] Addressable LED control (SPI-MOSI could be used)
 ## 🛠 Electrical scheme
-- [ ] MCU
-- [ ] Driver
-- [ ] MOSFETs
-- [ ] Bulk capacitors
-- [ ] TVS Diode
-- [ ] CAN Transceiver
+- [x] MCU
+- [x] Driver
+- [x] MOSFETs
+- [x] Bulk capacitors
+- [x] TVS Diode
+- [x] CAN Transceiver
   - [ ] CAN protection?
 - [ ] 5V Buck
 - [ ] 3.3V LDO
