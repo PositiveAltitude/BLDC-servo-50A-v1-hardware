@@ -18434,7 +18434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HCTL HC-FPC-05-09-8RLTAG_8pin connector:FPC-SMD_8P-P0.50_HC-FPC-05-09-8RLTAG"
+		(property "Footprint" "HCTL HC-FPC-05-09-8RLTAG:FPC-SMD_8P-P0.50_HC-FPC-05-09-8RLTAG"
 			(at 322.58 154.94 0)
 			(effects
 				(font
@@ -20840,7 +20840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HCTL HC-FPC-05-09-8RLTAG_8pin connector:FPC-SMD_8P-P0.50_HC-FPC-05-09-8RLTAG"
+		(property "Footprint" "HCTL HC-FPC-05-09-8RLTAG:FPC-SMD_8P-P0.50_HC-FPC-05-09-8RLTAG"
 			(at 322.58 115.57 0)
 			(effects
 				(font
@@ -28786,7 +28786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "TPS22919DCKR:SOT65P210X110-6N"
 			(at 232.41 220.65 0)
 			(effects
 				(font

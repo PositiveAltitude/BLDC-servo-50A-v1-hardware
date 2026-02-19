@@ -34,28 +34,27 @@
 - [x] Temperature sense (NTC)
 - [x] Fan PWM control
 - [x] Addressable LED control (SPI-MOSI could be used)
-## 🛠 Electrical scheme
+## ✅ Electrical scheme
 - [x] MCU
 - [x] Driver
 - [x] MOSFETs
 - [x] Bulk capacitors
 - [x] TVS Diode
 - [x] CAN Transceiver
-  - [ ] CAN protection?
-- [ ] 5V Buck
-- [ ] 3.3V LDO
-- [ ] Fan switch
-- [ ] LED
-- [ ] Connectors
-  - [ ] Phase soldering pads
-  - [ ] Battery pads
-  - [ ] Can connectors
-  - [ ] Fan connector
-  - [ ] SWD
-  - [ ] Encoder connectors
-- [ ] Mounting holes
-- [ ] Voltage sensing
-- [ ] Current sensing
+- [x] 5V Buck
+- [x] 3.3V LDO
+- [x] Fan switch
+- [x] LED
+- [x] Connectors
+  - [x] Phase soldering pads
+  - [x] Battery pads
+  - [x] Can connectors
+  - [x] Fan connector
+  - [x] SWD
+  - [x] Encoder connectors
+- [x] Mounting holes
+- [x] Voltage sensing
+- [x] Current sensing
 ## 🛠 Assign all components and footprints
 - [x] Footprints
   - [x] Resistors
