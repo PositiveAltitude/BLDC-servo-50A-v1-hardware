@@ -5872,8 +5872,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
+			(property "Reference" "U4"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5881,12 +5881,11 @@
 				)
 			)
 			(property "Value" "TLV75533PDBV"
-				(at 0 5.715 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
@@ -5909,6 +5908,24 @@
 				)
 			)
 			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "partno" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Note" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -6022,7 +6039,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -9438,7 +9455,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 63.5) (xy 31.75 63.5)
+			(xy 21.59 63.5) (xy 31.75 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9608,7 +9625,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 83.82) (xy 31.75 83.82)
+			(xy 21.59 83.82) (xy 31.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9738,7 +9755,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 71.12) (xy 31.75 71.12)
+			(xy 21.59 71.12) (xy 31.75 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9988,7 +10005,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 73.66) (xy 31.75 73.66)
+			(xy 21.59 73.66) (xy 31.75 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10408,7 +10425,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 68.58) (xy 31.75 68.58)
+			(xy 21.59 68.58) (xy 31.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -11018,16 +11035,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 81.28) (xy 31.75 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64594c81-810e-4ce4-a2ec-80c4e2700f8c")
-	)
-	(wire
-		(pts
 			(xy 335.28 100.33) (xy 351.79 100.33)
 		)
 		(stroke
@@ -11538,7 +11545,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 86.36) (xy 31.75 86.36)
+			(xy 21.59 86.36) (xy 31.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12778,7 +12785,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 88.9) (xy 31.75 88.9)
+			(xy 21.59 88.9) (xy 31.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13298,7 +13305,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 78.74) (xy 31.75 78.74)
+			(xy 21.59 78.74) (xy 31.75 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13438,7 +13445,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 76.2) (xy 31.75 76.2)
+			(xy 21.59 76.2) (xy 31.75 76.2)
 		)
 		(stroke
 			(width 0)
@@ -13498,7 +13505,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 91.44) (xy 31.75 91.44)
+			(xy 21.59 91.44) (xy 31.75 91.44)
 		)
 		(stroke
 			(width 0)
@@ -13535,6 +13542,16 @@
 			(type default)
 		)
 		(uuid "d1cfb3dd-10b2-4a5e-881a-22515d50ea93")
+	)
+	(wire
+		(pts
+			(xy 21.59 81.28) (xy 31.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d5f573-d395-410e-9125-573e4603859c")
 	)
 	(wire
 		(pts
@@ -14058,7 +14075,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 66.04) (xy 31.75 66.04)
+			(xy 21.59 66.04) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -14517,7 +14534,7 @@
 		(uuid "00e67b91-904f-41e5-a6f9-2bb34d01720d")
 	)
 	(label "INHA"
-		(at 24.13 66.04 0)
+		(at 21.59 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14637,7 +14654,7 @@
 		(uuid "18feaca4-b906-4f91-8438-e95c473fe4c5")
 	)
 	(label "MOSI"
-		(at 24.13 86.36 0)
+		(at 21.59 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14657,7 +14674,7 @@
 		(uuid "1985f7e2-7587-40ad-931e-0e3a658a169f")
 	)
 	(label "DRV_CS"
-		(at 24.13 83.82 0)
+		(at 21.59 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14946,6 +14963,16 @@
 		)
 		(uuid "40e981f9-97c8-4312-8db3-d66aab6110d9")
 	)
+	(label "DRV_NFAULT"
+		(at 335.28 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "442f633a-60be-4bba-93aa-146169a84d4f")
+	)
 	(label "SL_C"
 		(at 83.82 88.9 180)
 		(effects
@@ -15007,7 +15034,7 @@
 		(uuid "4c45fa44-10d2-47ba-80b9-e6935f7131df")
 	)
 	(label "INLC"
-		(at 24.13 78.74 0)
+		(at 21.59 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15146,16 +15173,6 @@
 		)
 		(uuid "5cdd2763-1b4c-4df5-a288-ed37f29a704d")
 	)
-	(label "NFAULT"
-		(at 24.13 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f4f9d5b-9717-462f-815d-58a296874b07")
-	)
 	(label "DRV_AVDD"
 		(at 16.51 152.4 0)
 		(effects
@@ -15187,7 +15204,7 @@
 		(uuid "61b9f755-18d9-469e-b07e-cc21b7bffc27")
 	)
 	(label "INHB"
-		(at 24.13 71.12 0)
+		(at 21.59 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15397,7 +15414,7 @@
 		(uuid "8f393b23-397a-431a-bcfd-3ba1c2db7f02")
 	)
 	(label "INLA"
-		(at 24.13 68.58 0)
+		(at 21.59 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15455,6 +15472,16 @@
 			(justify left bottom)
 		)
 		(uuid "95aad34e-2530-4d2a-8d8c-15d49b61d0ff")
+	)
+	(label "DRV_NFAULT"
+		(at 21.59 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99414ff0-b8cc-4b76-a22c-2bee0cf05535")
 	)
 	(label "FAN_PWM"
 		(at 218.44 102.87 180)
@@ -15517,7 +15544,7 @@
 		(uuid "9e1805b9-9a04-4cf8-b29b-8b61895712a7")
 	)
 	(label "SCK"
-		(at 24.13 91.44 0)
+		(at 21.59 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15697,7 +15724,7 @@
 		(uuid "bdfa744b-4c72-4187-aead-fe7824a60bf9")
 	)
 	(label "INHC"
-		(at 24.13 76.2 0)
+		(at 21.59 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15747,7 +15774,7 @@
 		(uuid "c523eac8-f83b-49d3-9fa3-55df25de46c2")
 	)
 	(label "MISO"
-		(at 24.13 88.9 0)
+		(at 21.59 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15777,7 +15804,7 @@
 		(uuid "c795a4ae-ec73-4631-8a61-22c8420e9149")
 	)
 	(label "EN_GATE"
-		(at 24.13 63.5 0)
+		(at 21.59 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15976,16 +16003,6 @@
 		)
 		(uuid "e5148bce-e0c2-4cc8-9123-67219611ca68")
 	)
-	(label "NFAULT"
-		(at 335.28 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e53d1ec2-b073-4f94-b714-caebcf710027")
-	)
 	(label "SH_C"
 		(at 138.4256 223.52 0)
 		(effects
@@ -16047,7 +16064,7 @@
 		(uuid "ecf0e4d7-e786-4cfb-8782-ee995fa8e5df")
 	)
 	(label "INLB"
-		(at 24.13 73.66 0)
+		(at 21.59 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17543,7 +17560,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 383.54 267.97 270)
+		(at 393.7 266.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17551,7 +17568,7 @@
 		(dnp no)
 		(uuid "079545c5-e528-46f0-8f42-434ac654996d")
 		(property "Reference" "#FLG04"
-			(at 385.445 267.97 0)
+			(at 395.605 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17560,7 +17577,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 387.096 267.97 0)
+			(at 397.256 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17569,7 +17586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 267.97 0)
+			(at 393.7 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17578,7 +17595,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 383.54 267.97 0)
+			(at 393.7 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17587,7 +17604,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 383.54 267.97 0)
+			(at 393.7 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31742,7 +31759,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 383.54 267.97 0)
+		(at 393.7 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31750,7 +31767,7 @@
 		(dnp no)
 		(uuid "cad5fcaf-0d9b-4efa-9e5e-f4dc54b90639")
 		(property "Reference" "#PWR055"
-			(at 383.54 271.78 0)
+			(at 393.7 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31759,7 +31776,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 383.54 264.414 0)
+			(at 393.7 263.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31767,7 +31784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 267.97 0)
+			(at 393.7 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31776,7 +31793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 267.97 0)
+			(at 393.7 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31785,7 +31802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 383.54 267.97 0)
+			(at 393.7 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
