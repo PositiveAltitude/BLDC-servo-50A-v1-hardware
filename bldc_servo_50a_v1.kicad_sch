@@ -8865,6 +8865,10 @@
 		(uuid "06094cb3-97a7-4571-8082-9cf3cd844cc6")
 	)
 	(no_connect
+		(at 223.52 236.22)
+		(uuid "06da1be3-7339-4f64-bd2b-cad51a81f2bd")
+	)
+	(no_connect
 		(at 323.85 140.97)
 		(uuid "14a4c38b-14b6-4d8e-90a2-5eecec7be5ed")
 	)
@@ -8895,6 +8899,10 @@
 	(no_connect
 		(at 323.85 129.54)
 		(uuid "95e64d4a-2929-403f-9181-f558d8eaf8df")
+	)
+	(no_connect
+		(at 313.69 220.98)
+		(uuid "9f66da90-fed3-487f-9827-16661f0f58db")
 	)
 	(no_connect
 		(at 351.79 69.85)
