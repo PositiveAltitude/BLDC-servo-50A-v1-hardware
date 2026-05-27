@@ -14852,6 +14852,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 130.81) (xy 210.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe1be28-4535-4c84-aaf7-17cf92962565")
+	)
+	(wire
+		(pts
 			(xy 63.5 204.47) (xy 62.23 204.47)
 		)
 		(stroke
@@ -16061,12 +16071,12 @@
 		(uuid "a0309c36-d19c-4ad9-ad52-66ab243277ae")
 	)
 	(label "FAN_EN"
-		(at 210.82 130.81 180)
+		(at 205.74 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a09ac740-9945-47fd-8eed-bd6e665f8a72")
 	)
