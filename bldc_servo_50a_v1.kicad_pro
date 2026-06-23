@@ -65,8 +65,8 @@
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -215,6 +215,8 @@
         0.2,
         0.3,
         0.5,
+        0.6,
+        0.8,
         1.0,
         2.0,
         3.0,
@@ -776,7 +778,7 @@
         "uuid": "ca0f1187-2401-4955-9ff2-f596d64fa8e9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR36,H4-5",
     "variants": []
   },
   "sheets": [
