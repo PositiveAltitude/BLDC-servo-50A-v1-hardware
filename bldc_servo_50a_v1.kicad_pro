@@ -214,6 +214,7 @@
         0.0,
         0.2,
         0.3,
+        0.4,
         0.5,
         0.6,
         0.8,
@@ -778,7 +779,7 @@
         "uuid": "ca0f1187-2401-4955-9ff2-f596d64fa8e9"
       }
     ],
-    "used_designators": "#PWR36,H4-5",
+    "used_designators": "#PWR55,#PWR67-68,R29-31,C57-59,H6-7",
     "variants": []
   },
   "sheets": [
