@@ -7927,7 +7927,7 @@
 		)
 		(uuid "46a09274-8d3d-46ce-b462-b9e5e0b4a8a3")
 	)
-	(text "SOx pins have no RC Filters\n"
+	(text "SOx pins have no RC Filters - added\n\n"
 		(exclude_from_sim no)
 		(at 212.852 -6.604 0)
 		(effects
@@ -24342,7 +24342,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3ab6ba0f-bec9-4ee1-945c-314027921d0b")
 		(property "Reference" "C59"
 			(at 368.046 249.428 0)
@@ -26123,7 +26123,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "553255ad-aa4c-498a-8583-a839b876f732")
 		(property "Reference" "C58"
 			(at 368.046 237.998 0)
@@ -27374,7 +27374,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "651a5945-9495-4a7a-a7df-3b83803809e5")
 		(property "Reference" "C57"
 			(at 368.046 226.568 0)
@@ -28995,7 +28995,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7c9e138a-9074-43a2-b4fb-651e9e1b5274")
 		(property "Reference" "R29"
 			(at 368.808 220.218 90)
@@ -30388,7 +30388,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8d456646-fbf6-43ba-93a1-5f9b676bfe81")
 		(property "Reference" "R31"
 			(at 369.57 243.078 90)
@@ -35808,7 +35808,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b7f43946-6612-4053-873b-f3904b47fc76")
 		(property "Reference" "R30"
 			(at 369.316 231.648 90)
