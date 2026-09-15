@@ -18,6 +18,8 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+_restore*/
+.history
 
 #IDE files
 \.idea
