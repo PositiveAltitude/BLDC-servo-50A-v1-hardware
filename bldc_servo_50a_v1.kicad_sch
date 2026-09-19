@@ -15336,12 +15336,12 @@
 		(uuid "2b34b160-d1a5-420c-83a7-23a80e24ddfd")
 	)
 	(label "INHA"
-		(at 402.59 54.61 180)
+		(at 402.59 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2b7f012f-72de-4ce9-b368-84326d01dafa")
 	)
@@ -15406,7 +15406,7 @@
 		(uuid "31f85aa6-e48c-4856-bd46-0871f3bef065")
 	)
 	(label "INHC"
-		(at 402.59 59.69 180)
+		(at 335.28 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15516,12 +15516,12 @@
 		(uuid "444992e5-31fd-4055-ba5f-efc4b1b97d89")
 	)
 	(label "INHB"
-		(at 402.59 57.15 180)
+		(at 402.59 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "45af9a91-a19b-4e81-9877-12da9de5a3d9")
 	)
@@ -15656,12 +15656,12 @@
 		(uuid "5750fb7e-8994-4b61-81c8-8dc07798b3c1")
 	)
 	(label "INLB"
-		(at 335.28 97.79 0)
+		(at 335.28 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "576d570e-ad4d-4215-aa15-14e073fa5cdf")
 	)
@@ -15716,7 +15716,7 @@
 		(uuid "5c6b8e1f-0229-42ba-8c87-41215c45e5b2")
 	)
 	(label "INLA"
-		(at 335.28 95.25 0)
+		(at 402.59 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16766,12 +16766,12 @@
 		(uuid "f8b5d4d6-7ca6-497b-a0e0-a74df15e80fd")
 	)
 	(label "INLC"
-		(at 335.28 100.33 0)
+		(at 335.28 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fb3eab36-ec0b-417c-9c1a-b01a3b98dab8")
 	)
@@ -18329,7 +18329,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 238.76 90)
+		(at 217.17 238.76 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18339,7 +18340,7 @@
 		(dnp no)
 		(uuid "0765f244-5ad4-47c7-8b61-3ef4840b691d")
 		(property "Reference" "R27"
-			(at 219.456 236.22 90)
+			(at 214.884 236.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18350,7 +18351,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 218.694 241.554 90)
+			(at 215.646 241.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
