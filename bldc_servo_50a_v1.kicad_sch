@@ -9010,10 +9010,6 @@
 		(uuid "06094cb3-97a7-4571-8082-9cf3cd844cc6")
 	)
 	(no_connect
-		(at 223.52 236.22)
-		(uuid "06da1be3-7339-4f64-bd2b-cad51a81f2bd")
-	)
-	(no_connect
 		(at 323.85 140.97)
 		(uuid "14a4c38b-14b6-4d8e-90a2-5eecec7be5ed")
 	)
